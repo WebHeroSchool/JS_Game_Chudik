@@ -9,6 +9,7 @@ body, h1, p {
 .game-background {
   background: url(../img/Background.png) no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 .menu {
