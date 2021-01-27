@@ -3,25 +3,25 @@
 body, h1, p {
   margin: 0 auto;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .game-background {
-  background: url(../img/Background.png) no-repeat;
+  background: url(../img/Background.png) 0 0/auto 100% no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  max-width: 1440px;
+  min-width: 320px;
 }
 
 .menu {
   font-family: 'Roboto';
   font-weight: 700;
   color: #fff;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   padding: 129px 0 0 104px;
-  max-width: 1440px;
-  min-width: 320px;
-  max-height: 1080px;
 }
 
 .menu::before {
